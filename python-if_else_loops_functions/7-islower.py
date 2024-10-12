@@ -10,8 +10,5 @@
 # Tips: ord()
 # You don’t need to understand __import__
 
-def islower(c):
-   if ord(c) in range(ord('a'), ord('z') + 1):
-      return True
-   else:
-      return False
+def islower(c: str) -> bool:
+   return True if ord(c) in range(ord('a'), ord('z') + 1) else False

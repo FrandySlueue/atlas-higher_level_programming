@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 
-from typing import Any
-
 # Complete this source code (str = "Holberton School") in order to print 3 times a string stored in the variable str, followed by its first 9 characters.
 
 # You can find the source code here
@@ -13,7 +11,7 @@ from typing import Any
 # You are not allowed to use any loops or conditional statement
 # Your program should be maximum 5 lines long
 
-str: str = "Holberton School"
-first_9_char: Any = str[:9]
-print(str * 3)
+string: str = "Holberton School"
+first_9_char: str = string[:9]
+print(string * 3)
 print(first_9_char)

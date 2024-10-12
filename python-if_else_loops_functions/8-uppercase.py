@@ -10,8 +10,8 @@
 # Tips: ord()
 # You don’t need to understand __import__
 
-def uppercase(str):
-   uppercase_str = ''
+def uppercase(string: str) -> None:
+   uppercase_str: str = ''
    for char in str:
       if ord(char) in range(ord('a'), ord('z') + 1):
          uppercase_str += chr(ord(char) - 32)

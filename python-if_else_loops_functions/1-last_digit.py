@@ -16,9 +16,9 @@
 
 import random
 
-number = random.randint(-1000, 1000)
-last_digit = abs(number) % 10
-last_digit = -abs(last_digit) if number < 0 else last_digit
+number: int = random.randint(-1000, 1000)
+last_digit: int = abs(number) % 10
+last_digit: int = -abs(last_digit) if number < 0 else last_digit
 
 if last_digit == 0:
    comparison = 'is 0'
