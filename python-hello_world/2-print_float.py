@@ -9,5 +9,5 @@
 # You are not allowed to cast number to string
 # You have to use f-strings
 
-number: int = 3.14159
+number: float = 3.14159
 print(f"{number:.2f}")
