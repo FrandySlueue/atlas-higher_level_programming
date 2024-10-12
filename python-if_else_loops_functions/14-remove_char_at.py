@@ -7,7 +7,7 @@
 # You don’t need to understand __import__
 
 def remove_char_at(string: str, n: int) -> None:
-   new_str = ''
+   new_str: str = ''
    
    for i in range(len(string)):
       if i != n:
