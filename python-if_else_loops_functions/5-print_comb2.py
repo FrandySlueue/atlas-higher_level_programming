@@ -12,9 +12,6 @@
 
 for i in range(100):
    if i != 99:
-      if len(str(i)) < 2:
-         print(f"0{i}", end=', ')
-      else:
-         print(i, end=', ')
+      print(f"{i:02d}", end=', ')
    else:
       print(i)
