@@ -7,6 +7,6 @@
 # You have to use the variables str1 and str2 in your new line of code
 # Your program should be exactly 5 lines long
 
-str1 = "Holberton"
-str2 = "School"
+str1: str = "Holberton"
+str2: str = "School"
 print(f"Welcome to {str1} {str2}!")

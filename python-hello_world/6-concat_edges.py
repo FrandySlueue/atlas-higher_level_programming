@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+from typing import Any
+
 # Complete this source code (str = "Python is an interpreted, interactive, object-oriented programming\ language that combines remarkable power with very clear syntax") to print `object-oriented programming with Python`, followed by a new line.
 
 # You can find the source code here
@@ -10,7 +12,7 @@
 
 str = "Python is an interpreted, interactive, object-oriented programming\
  language that combines remarkable power with very clear syntax"
-py = str[:6]
-obj = str[39:66]
-wit = str[-22:-18]
+py: Any = str[:6]
+obj: Any = str[39:66]
+wit: Any = str[-22:-18]
 print(f"{obj} {wit} {py}")

@@ -10,5 +10,5 @@
 # Your code must be 3 lines long
 # You have to use f-strings tips
 
-number = 98
+number: int = 98
 print(f"{number} Battery street")
