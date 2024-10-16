@@ -20,7 +20,7 @@ def magic_calculation(a: int, b: int) -> int:
         int: The result of the calculation, either from the `add` function or 
              the `sub` function depending on the comparison of `a` and `b`.
     """
-    from magic_calculation_102 import add, sub
+    from calculator_1 import add, sub
 
     if a < b:
         c: int = add(a, b)
