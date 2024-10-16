@@ -6,7 +6,7 @@ from typing import Callable
 def magic_calculation(a: int, b: int) -> int:
     """
     This function performs a magic calculation using the 'add' and 'sub' 
-    functions from the 'magic_calculation_102' module.
+    functions from the 'calculation_1' module.
 
     - If `a` is less than `b`, it calculates `c = add(a, b)`, and then adds 
       values from 4 to 5 to `c` using the `add` function.
