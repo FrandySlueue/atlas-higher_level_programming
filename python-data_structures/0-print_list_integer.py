@@ -17,8 +17,9 @@ def print_list_integer(my_list: List[int]=[]) -> None:
    Prints the integer elements of a list one element per line.
 
    Args:
-       my_list (List[int], optional): The list whose integer elements \
-          will be printed. Defaults to an empty list.
+       my_list (List[int], optional): 
+         - The list whose integer elements will be printed.
+         - Defaults to an empty list.
    
    Returns:
       None: This function prints directly to the console.

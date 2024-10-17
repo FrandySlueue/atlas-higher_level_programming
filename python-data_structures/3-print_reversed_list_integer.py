@@ -17,8 +17,9 @@ def print_reversed_list_integer(my_list: List[Any]=[]) -> None:
    Prints the integer elements of a list in reverse order one element per line.
 
    Args:
-       my_list (List[Any], optional): The list whose integer \
-          elements will be printed. Defaults to an empty list.
+       my_list (List[Any], optional): 
+         - The list whose integer elements will be printed.
+         - Defaults to an empty list.
    
    Returns:
       None: This function prints directly to the console.    
