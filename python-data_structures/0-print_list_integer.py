@@ -14,10 +14,14 @@ from typing import List
 
 def print_list_integer(my_list: List[int]=[]) -> None:
    """
-   This program prints the values of an integer list one per line.
+   Prints the integer elements of a list one element per line.
 
    Args:
-       my_list (List[int], optional): The list whose elements are to be printed. Defaults to [].
+       my_list (List[int], optional): The list whose integer elements \
+          will be printed. Defaults to an empty list.
+   
+   Returns:
+      None: This function prints directly to the console.
    """
    for num in my_list:
       print("{}".format(num))

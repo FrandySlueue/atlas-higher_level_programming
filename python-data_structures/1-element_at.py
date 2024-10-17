@@ -12,12 +12,12 @@ from typing import List, Any
 
 def element_at(my_list: List[Any], idx: int) -> Any:
    """
-   This program returns the element at a given index of a list.
+   Returns the element at a given index of a list.
    It will return `None` if the index is out of bounds:
    (idx < 0 or idx >= length of list).
 
    Args:
-       my_list (List[Any]): The list who element is to be returned.
+       my_list (List[Any]): The list who element will be returned.
        idx (int): The index of the element to be returned.
 
    Returns:

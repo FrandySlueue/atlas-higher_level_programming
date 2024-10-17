@@ -14,7 +14,7 @@ from typing import List, Any
 
 def replace_in_list(my_list: List[Any], idx: int, element: Any) -> List[Any]:
    """
-   This program updates an element of a given index and return the modified list
+   This program updates an element at a given index and return the modified list
    if the provided index is not out of bounds ( idx < 0 or idx >= lengh of list), 
    otherwise it will return the original list. 
    
@@ -24,7 +24,7 @@ def replace_in_list(my_list: List[Any], idx: int, element: Any) -> List[Any]:
        element (Any): The new updated element.
 
    Returns:
-       List[Any]: The update list or the original list if the index is out of bounds.
+       List[Any]: The updated list or the original list if the index is out of bounds.
    """
    if idx < 0 or idx >= len(my_list):
       return my_list
