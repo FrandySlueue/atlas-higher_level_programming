@@ -11,6 +11,7 @@
 
 from typing import List
 
+
 def print_list_integer(my_list: List[int]=[]) -> None:
    """
    This program prints the values of an integer list one per line.
@@ -21,6 +22,11 @@ def print_list_integer(my_list: List[int]=[]) -> None:
    for num in my_list:
       print("{}".format(num))
 
-if __name__ == '__main__':
+
+def main():
    my_list: List[int] = [3, 5, 6, 7, 8]
    print_list_integer(my_list)
+
+
+if __name__ == '__main__':
+   main()

@@ -12,22 +12,27 @@ from typing import List, Any
 
 def element_at(my_list: List[Any], idx: int) -> Any:
    """
-   This program return an element at a given index of a list.
-   It will return `None` if the index is out of bound:
-   (greater than the list length or less than zero)
+   This program returns the element at a given index of a list.
+   It will return `None` if the index is out of bounds:
+   (idx < 0 or idx >= length of list).
 
    Args:
-       my_list (List[Any]): The list who element is to be returned
-       idx (int): The index of the element to be returned
+       my_list (List[Any]): The list who element is to be returned.
+       idx (int): The index of the element to be returned.
 
    Returns:
-       Any: The element returned from the given index or `None`
+       Any: The element at the given index or None if the index is out of bounds.
    """
    return None if idx > len(my_list) or idx < 0 else my_list[idx]
 
-if __name__ == '__main__':
+
+def main():
    idx: int = 9
    
    my_list: List[Any] = ['qoder', 'python', 'Rue 66', 'pythonist']
 
    print(element_at(my_list, idx))
+    
+
+if __name__ == '__main__':
+    main()
