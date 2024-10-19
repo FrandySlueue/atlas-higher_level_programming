@@ -58,8 +58,8 @@ def div(a: int, b: int) -> float:
 
 
 def main():
-    a = 10
-    b = 0
+    a: int = 10
+    b: int = 0
     
     print(add(a, b))
     print(sub(a, b))

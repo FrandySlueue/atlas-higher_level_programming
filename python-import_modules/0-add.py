@@ -18,8 +18,8 @@ from add_0 import add
 
 
 def main():
-   a = 1
-   b = 2
+   a: int = 1
+   b: int = 2
 
    print("{} + {} = {}".format(a, b, add(a, b)))
 

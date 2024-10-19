@@ -15,8 +15,8 @@ def add(a: int, b: int) -> int:
 
 
 def main():
-    a = 10
-    b = 5
+    a: int = 10
+    b: int = 5
     
     print(add(a, b))
     
