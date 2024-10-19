@@ -17,6 +17,8 @@ def uppercase(string: str) -> None:
 
    Args:
        string (str): The string whose characters will be printed.
+   Returns:
+        None: This function prints directly to the console.
    """
    for char in string:
       if 'a' <= char <= 'z':

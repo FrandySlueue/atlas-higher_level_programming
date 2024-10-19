@@ -20,6 +20,8 @@ def fizzbuzz(number: int) -> None:
 
    Args:
        number (int): The number that defines the end range (inclusive).
+   Returns:
+        None: This function prints directly to the console.
    """
    value: str = ''
    
