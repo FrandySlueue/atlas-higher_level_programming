@@ -54,6 +54,18 @@ def div(a: int, b: int) -> float:
       return a / b
    except ZeroDivisionError:
       print(f"Cannot divide by 0")
+      return 0.0
+
+
+def main():
+    a = 10
+    b = 0
+    
+    print(add(a, b))
+    print(sub(a, b))
+    print(mul(a, b))
+    print(div(a, b))
+
 
 if __name__ == ('__main__'):
-   ...
+   main()

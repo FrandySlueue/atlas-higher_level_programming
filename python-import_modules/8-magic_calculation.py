@@ -30,5 +30,9 @@ def magic_calculation(a: int, b: int) -> int:
     else:
         return sub(a, b)  # If a >= b, return sub(a, b)
 
+def main():
+    dis(magic_calculation)
 
-dis(magic_calculation)
+
+if __name__ == '__main__':
+    main()

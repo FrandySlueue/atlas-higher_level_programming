@@ -21,25 +21,6 @@ def main():
     for name in visible_names:
         print(name)
 
+
 if __name__ == "__main__":
     main()
-
-
-# import hidden_4
-
-# def main():
-#     # Get all names defined by the module
-#     names = dir(hidden_4)
-    
-#     # Filter out names that start with '__'
-#     visible_names = [name for name in names if not name.startswith('__')]
-    
-#     # Sort names in alphabetical order
-#     visible_names.sort()
-    
-#     # Print each name on a new line
-#     for name in visible_names:
-#         print(name)
-
-# if __name__ == "__main__":
-#     main()

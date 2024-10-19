@@ -23,6 +23,10 @@ def get_sum_of_args(*args) -> int:
    return 0 if len(args) == 0 else reduce(lambda a, b: a + b, args)
 
 
-if __name__ == '__main__':
+def main():
    args: List[int] = list(map(int, sys.argv[1:]))
    print(get_sum_of_args(*args))
+   
+
+if __name__ == '__main__':
+   main()

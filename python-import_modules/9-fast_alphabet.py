@@ -12,7 +12,12 @@
 
 import string
 
-print(*map(chr, range(65, 91)),sep='', end='\n')
-"""
-Print the ascii alphabet in uppercase follow by a new line.
-"""
+def main():
+   print(*map(chr, range(65, 91)),sep='', end='\n')
+   """
+   Print the ascii alphabet in uppercase follow by a new line.
+   """
+
+
+if __name__ == '__main__':
+   main()

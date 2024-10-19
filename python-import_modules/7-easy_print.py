@@ -9,9 +9,11 @@
 
 import os
 
-os.write(1, b"#pythonischool\n")
-"""Print to standard output with os module.
-"""
+def main():
+   os.write(1, b"#pythonischool\n")
+   """Print to standard output with os module.
+   """
+
 
 if __name__ == '__main__':
-   ...
+   main()

@@ -35,6 +35,11 @@ def print_args(args: List[str]=[]) -> None:
    for idx, arg in enumerate(args, 1):
       print(f"{idx}: {arg}")
 
-if __name__ == '__main__':
+
+def main():
    args: List[str] = sys.argv[1:]
    print_args(args)
+   
+
+if __name__ == '__main__':
+   main()

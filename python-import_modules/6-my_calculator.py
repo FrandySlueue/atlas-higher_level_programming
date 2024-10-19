@@ -54,13 +54,17 @@ def my_calculator(a: int, operator: str, b: int) -> None:
       print("Unknown operator. Available operators: +, -, * and /")
       sys.exit(1)
 
-if __name__ == '__main__':
+
+def main():
    args: List[str] = sys.argv[1:]
    
    if len(args) != 3:
       print("Usage: ./6-my_calculator.py <a> <operator> <b>")
       sys.exit(1)
    
-   
    a, operator, b = args
    my_calculator(int(a), operator, int(b))
+
+
+if __name__ == '__main__':
+   main()
