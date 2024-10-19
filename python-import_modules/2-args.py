@@ -26,6 +26,8 @@ def print_args(args: List[str]=[]) -> None:
 
    Args:
        args (List[str], optional): The command line arguments to print. Defaults to [].
+   Returns:
+        None: This function prints directly to the console.
    """
    args_size: int = len(args)
    
