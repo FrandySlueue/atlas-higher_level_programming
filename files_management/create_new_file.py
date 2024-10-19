@@ -12,7 +12,7 @@ def create_python_files(filename: str, interpreter: str='/usr/bin/env python3') 
        interpreter (str, optional): _The shebang line to be added. Defaults to '/usr/bin/env python3'.
    
    Returns:
-      None
+      None: This function prints the result of created files attemps.
    """
    # The shebang which will be the first line of code in the file
    shebang_line: str = f"#!{interpreter}\n"

@@ -11,7 +11,7 @@ def copy_content_to_file(source_file: str, target_files: List[str]) -> None:
        target_files (List[str]): The file or files to append to.
    
    Returns:
-      None
+      None: This function prints the result of the copied content attempts.
    """
    try:
       # Read and store content from source file
