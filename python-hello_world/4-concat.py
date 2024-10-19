@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
-# Complete this source code (str1 = "Holberton", str2 = "School") to print Welcome to Holberton School!
+# Complete this source code (str1 = "Holberton", str2 = "School") 
+# to print Welcome to Holberton School!
 
 # You can find the source code here
 # You are not allowed to use any loops or conditional statements.
@@ -9,4 +10,11 @@
 
 str1: str = "Holberton"
 str2: str = "School"
-print(f"Welcome to {str1} {str2}!")
+
+
+def main():
+   print(f"Welcome to {str1} {str2}!")
+
+
+if __name__ == '__main__':
+   main()

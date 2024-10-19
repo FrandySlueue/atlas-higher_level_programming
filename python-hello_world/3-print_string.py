@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
-# Complete this source code (str = "Holberton School") in order to print 3 times a string stored in the variable str, followed by its first 9 characters.
+# Complete this source code (str = "Holberton School") in 
+# order to print 3 times a string stored in the variable str, 
+# followed by its first 9 characters.
 
 # You can find the source code here
 # The output of the program should be:
@@ -12,6 +14,14 @@
 # Your program should be maximum 5 lines long
 
 string: str = "Holberton School"
-first_9_char: str = string[:9]
-print(string * 3)
-print(first_9_char)
+
+
+def main():
+   first_9_char: str = string[:9]
+   
+   print(string * 3)
+   print(first_9_char)
+
+
+if __name__ == '__main__':
+   main()

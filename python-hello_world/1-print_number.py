@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
-# Complete this source code (number = 98) in order to print the integer stored in the variable number, followed by Battery street, followed by a new line.
+# Complete this source code (number = 98) in order 
+# to print the integer stored in the variable number, 
+# followed by Battery street, followed by a new line.
 
 # You can find the source code here
 # The output of the script should be:
@@ -11,4 +13,10 @@
 # You have to use f-strings tips
 
 number: int = 98
-print(f"{number} Battery street")
+
+def main():
+   print(f"{number} Battery street")
+
+
+if __name__ == '__main__':
+   main()

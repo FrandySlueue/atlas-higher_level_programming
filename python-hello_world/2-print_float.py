@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
-# Complete the source code (number = 3.14159) in order to print the float stored in the variable number with a precision of 2 digits.
+# Complete the source code (number = 3.14159) in order 
+# to print the float stored in the variable number with 
+# a precision of 2 digits.
 
 # You can find the source code here
 # The output of the program should be:
@@ -10,4 +12,11 @@
 # You have to use f-strings
 
 number: float = 3.14159
-print(f"{number:.2f}")
+
+
+def main():
+   print(f"{number:.2f}")
+
+
+if __name__ == '__main__':
+   main()

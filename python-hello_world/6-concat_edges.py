@@ -10,7 +10,15 @@
 
 string: str = "Python is an interpreted, interactive, object-oriented programming\
  language that combines remarkable power with very clear syntax"
-py: str = string[:6]
-obj: str = string[39:66]
-wit: str = string[-22:-18]
-print(f"{obj} {wit} {py}")
+
+
+def main():
+   py: str = string[:6]
+   obj: str = string[39:66]
+   wit: str = string[-22:-18]
+   
+   print(f"{obj} {wit} {py}")
+
+
+if __name__ == '__main__':
+   main()
