@@ -11,10 +11,28 @@
 # You don’t need to understand __import__
 
 def uppercase(string: str) -> None:
-   uppercase_str: str = ''
-   for char in str:
-      if ord(char) in range(ord('a'), ord('z') + 1):
-         uppercase_str += chr(ord(char) - 32)
+   """
+   Prints each character of `string` while converting them to 
+   uppercase when possible.
+
+   Args:
+       string (str): The string whose characters will be printed.
+   """
+   for char in string:
+      if 'a' <= char <= 'z':
+         print(chr(ord(char) - 32), end='')
       else:
-         uppercase_str += char
-   print(f"{uppercase_str}")
+         print(char, end='')
+   print()
+
+
+def main():
+   name: str = 'Frandy Slueuez'
+   school: str = 'atlaS sChool 918'
+   
+   uppercase(name)
+   uppercase(school)
+
+
+if __name__ == '__main__':
+   main()

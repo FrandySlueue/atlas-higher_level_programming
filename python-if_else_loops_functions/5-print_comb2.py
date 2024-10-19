@@ -10,6 +10,10 @@
 # You are not allowed to store numbers or strings in a variable
 # You are not allowed to import any module
 
-for i in range(100):
-   print(f'{i:0d},' if i != 99 else i, end='')
+def main():
+   for i in range(100):
+      print(f'{i:0d},' if i != 99 else i, end='')
 
+
+if __name__ == '__main__':
+   main()
