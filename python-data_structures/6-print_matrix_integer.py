@@ -36,11 +36,11 @@ def print_matrix_integer(matrix: List[List[int]]=[[]]) -> None:
    Returns:
        None: This program prints directly to the console.
    """
-   print('\n'.join(' '.join(str(num) for num in row) for row in matrix))
+   print("{}".format('\n'.join(' '.join(str(num) for num in row) for row in matrix)))
 
 
 def main():
-   matrix = [
+   matrix: List[List[int]] = [
       [1, 2, 3],
       [4, 5, 6],
       [7, 8, 9]
