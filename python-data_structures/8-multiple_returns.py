@@ -29,7 +29,9 @@ def multiple_returns(sentence: str) -> Tuple[int, Optional[str]]:
 
 
 if __name__ == '__main__':
-   sentence = ""
+   sentence: str = ""
+   length: int
+   first: Optional[str] = None
    length, first = multiple_returns(sentence)
    print("Length: {:d} - First character: {}".format(length, first))
    
