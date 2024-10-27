@@ -29,18 +29,18 @@ def add_tuple(tuple_a: Tuple[int, int] = (0, 0),
        Tuple[int, int]: The sum of tuples' elements at index 0 and index 1.
    """
    # Get the element or 0 if not available
-   a_first = tuple_a[0] if len(tuple_a) > 0 else 0
-   a_second = tuple_a[1] if len(tuple_a) > 1 else 0
-   b_first = tuple_b[0] if len(tuple_b) > 0 else 0
-   b_second = tuple_b[1] if len(tuple_b) > 1 else 0
+   a_first: int = tuple_a[0] if len(tuple_a) > 0 else 0
+   a_second: int = tuple_a[1] if len(tuple_a) > 1 else 0
+   b_first: int = tuple_b[0] if len(tuple_b) > 0 else 0
+   b_second: int = tuple_b[1] if len(tuple_b) > 1 else 0
 
    # Return the sum of the first and second elements
    return (a_first + b_first, a_second + b_second)
 
 if __name__ == '__main__':
-    tuple_a = (1, 89)
-    tuple_b = (88, 11)
-    new_tuple = add_tuple(tuple_a, tuple_b)
+    tuple_a: Tuple[int, int] = (1, 89)
+    tuple_b: Tuple[int, int] = (88, 11)
+    new_tuple: Tuple[int, int] = add_tuple(tuple_a, tuple_b)
     print(new_tuple)
 
     print(add_tuple(tuple_a, (1,)))
