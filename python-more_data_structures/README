@@ -1,0 +1,81 @@
+# Python - More Data Structures: Set, Dictionary
+
+## Project Overview
+
+This project, "More Data Structures: Set, Dictionary," focuses on enhancing your understanding of fundamental data structures in Python. It is designed for novice programmers and covers the essential concepts and functionalities of sets and dictionaries.
+
+### Author
+Guillaume
+
+### Weight
+1
+
+### Description
+Throughout this project, you will learn about:
+- Sets: their uses, common methods, and how to iterate through them.
+- Dictionaries: their structure, key-value pairs, and iteration techniques.
+- Functional programming concepts in Python including lambda functions, and the use of map, filter, and reduce.
+
+### Learning Objectives
+By the end of this project, you should be able to explain the following concepts:
+- Why Python programming is awesome.
+- The differences between sets and lists, and when to use each.
+- The key characteristics of dictionaries and when to use them versus lists or sets.
+- The purpose and usage of lambda functions.
+- How to use the map, reduce, and filter functions in Python.
+
+## Resources
+- [Data Structures](https://docs.python.org/3/tutorial/datastructures.html)
+- [Lambda, filter, reduce and map](https://docs.python.org/3/library/functions.html#filter)
+- [Learn to Program: Lambda, Map, Filter, Reduce](https://www.learnpython.org/en/Lambda_Expressions)
+
+## Requirements
+- **General**
+  - Allowed editors: vi, vim, emacs
+  - Files should be interpreted/compiled on Ubuntu 20.04 LTS using Python 3 (version 3.8.5)
+  - Each file must end with a new line.
+  - The first line of each file should be `#!/usr/bin/python3`.
+  - A `README.md` file at the root of the project is mandatory.
+  - Code should adhere to `pycodestyle` (version 2.7.*).
+  - All files must be executable.
+  - The length of files will be assessed using `wc`.
+
+## Tasks
+1. **Squared Simple**: Write a function that computes the square value of all integers in a matrix.
+   - `def square_matrix_simple(matrix=[])`
+2. **Search and Replace**: Create a function to replace all occurrences of an element in a list with another element.
+   - `def search_replace(my_list, search, replace)`
+3. **Unique Addition**: Add all unique integers in a list.
+   - `def uniq_add(my_list=[])`
+4. **Present in Both**: Return a set of common elements in two sets.
+   - `def common_elements(set_1, set_2)`
+5. **Only Differents**: Return a set of all elements present in only one set.
+   - `def only_diff_elements(set_1, set_2)`
+6. **Number of Keys**: Return the number of keys in a dictionary.
+   - `def number_keys(a_dictionary)`
+7. **Print Sorted Dictionary**: Print a dictionary by ordered keys.
+   - `def print_sorted_dictionary(a_dictionary)`
+8. **Update Dictionary**: Replace or add a key/value in a dictionary.
+   - `def update_dictionary(a_dictionary, key, value)`
+9. **Simple Delete by Key**: Delete a key in a dictionary.
+   - `def simple_delete(a_dictionary, key="")`
+10. **Multiply by 2**: Return a new dictionary with all values multiplied by 2.
+    - `def multiply_by_2(a_dictionary)`
+11. **Best Score**: Return a key with the biggest integer value in a dictionary.
+    - `def best_score(a_dictionary)`
+12. **Multiply List Map**: Return a list with all values multiplied by a number without using loops.
+    - `def multiply_list_map(my_list=[], number=0)`
+13. **Roman to Integer**: Convert a Roman numeral to an integer.
+    - `def roman_to_int(roman_string)`
+14. **Weighted Average**: Return the weighted average of all integers in a tuple.
+    - `def weight_average(my_list=[])`
+15. **Squared by Using Map**: Compute the square value of all integers of a matrix using map.
+    - `def square_matrix_map(matrix=[])`
+16. **Delete by Value**: Delete keys with a specific value in a dictionary.
+    - `def complex_delete(a_dictionary, value)`
+
+## Getting Started
+To start working on this project, clone the GitHub repository:
+
+```bash
+git clone https://github.com/frandyslueue/atlas-higher_level_programming.git
