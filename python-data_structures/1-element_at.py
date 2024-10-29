@@ -23,11 +23,11 @@ def element_at(my_list: List[Any], idx: int) -> Any:
    Returns:
        Any: The element at the given index or None if the index is out of bounds.
    """
-   return None if idx > len(my_list) or idx < 0 else my_list[idx]
+   return None if idx >= len(my_list) or idx < 0 else my_list[idx]
 
 
 def main():
-   idx: int = 9
+   idx: int = 4
    
    my_list: List[Any] = ['qoder', 'python', 'Rue 66', 'pythonist']
 
