@@ -30,6 +30,6 @@ def create_python_files(filename: str, interpreter: str='/usr/bin/env python3') 
 
 if __name__ == ("__main__"):
    # File(s) to create
-   file_list: List[str] = ["../python-data_structures/12-switch.py"]
+   file_list: List[str] = ["../python-more_data_structures/15-complex_delete.py"]
    for filename in file_list:
       create_python_files(filename)
