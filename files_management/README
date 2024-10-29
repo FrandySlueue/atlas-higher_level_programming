@@ -1,0 +1,101 @@
+# File Management Scripts
+
+This repository contains three Python scripts for basic file management operations: copying content from one file to another, creating new Python files with execution permissions, and deleting specified files.
+
+## Table of Contents
+
+- [Requirements](#requirements)
+- [Scripts Overview](#scripts-overview)
+  - [1. `copy_old_file.py`](#1-copy_old_filepy)
+  - [2. `create_new_file.py`](#2-create_new_filepy)
+  - [3. `delete_old_file.py`](#3-delete_old_filepy)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Requirements
+
+- Python 3.x
+
+## Scripts Overview
+
+### 1. `copy_old_file.py`
+
+This script appends the content of a specified source file to one or more target files.
+
+## Functionality
+- Reads content from the source file.
+- Appends the content to each target file.
+
+## Usage
+Run the script using the command:
+
+```bash
+`python3 copy_old_file.py`
+```
+#### Example
+- To use the script, modify the `source_file` and `target_files` variables in the script:
+
+```python3
+`source_file: str = 'source.txt'`
+`target_files: List[str] = ['target1.txt', 'target2.txt']`
+```
+
+### 2. `create_new_file.py`
+
+This script creates new Python files with a specified shebang line and sets execution permissions.
+
+## Functionality
+- Creates a new file(s) and writes the specified shebang line.
+- Sets execution permissions for the created file.
+
+## Usage
+Run the script using the command:
+
+```bash
+python create_new_file.py
+```
+#### Example
+- To create new files, modify the `file_list` variable in the script:
+
+```python3
+`file_list: List[str] = ['new_script.py']`
+```
+
+### 3. `delete_old_file.py`
+
+This script deletes specified files from the filesystem.
+
+## Functionality
+- Deletes the files listed in the provided file paths.
+
+## Usage
+Run the script using the command:
+
+```bash
+python delete_old_file.py
+```
+
+#### Example
+- To delete files, modify the `files_to_delete` variable in the script:
+`files_to_delete: List[str] = ['file_to_delete.txt']`
+
+## License
+- This project is licensed under the MIT License. See the LICENSE file for more details.
+
+
+### Saving the Files
+
+You can copy each block of text above into separate files named:
+- `README_copy_old_file.md`
+- `README_create_new_file.md`
+- `README_delete_old_file.md`
+
+Feel free to add any additional details or modify the text as needed!
+
+
+## Contributing
+- This project is maintained by Frandy Slueue.
+If you have suggestions for improvements or find any bugs, feel free to reach out.
+
+Email: `frandyslueue@hotmail.com`
