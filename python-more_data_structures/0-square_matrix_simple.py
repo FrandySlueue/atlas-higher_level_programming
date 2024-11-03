@@ -25,7 +25,7 @@ def square_matrix_simple(matrix: List[List[int]] = []) -> List[List[int]]:
        List[List[int]]: A new matrix where each element is the squared of the corresponding
             element in the input matrix.
    """
-   return [[j * j for j in i] for i in matrix]
+   return [[elm * elm for elm in row] for row in matrix]
 
 
 if __name__ == '__main__':
